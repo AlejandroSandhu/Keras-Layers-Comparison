@@ -73,6 +73,6 @@ keras-mnist-comparison/
 - **Conv2D**: Best accuracy — exploits spatial structure of images
 - **LSTM**: Treats images as sequences of rows, competitive but slower
 
-## 📜 License
+## License
 
 MIT
