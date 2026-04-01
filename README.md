@@ -1,12 +1,12 @@
-# 🧠 Keras Layer Comparison on MNIST
+# Keras Layer Comparison on MNIST
 
 A hands-on comparison of three fundamental Keras layer types applied to the classic MNIST handwritten digit dataset.
 
-## 📌 Goal
+## Goal
 
 Compare the **accuracy**, **training time**, and **model complexity** of three different neural network architectures on the same task.
 
-## 🏗️ Architectures Compared
+## Architectures Compared
 
 | Notebook | Architecture | Key Layer |
 |----------|-------------|-----------|
@@ -15,7 +15,7 @@ Compare the **accuracy**, **training time**, and **model complexity** of three d
 | `03_lstm_model.ipynb` | Recurrent Neural Network | `LSTM` |
 | `04_comparison.ipynb` | Side-by-side results | All |
 
-## 📊 Results Summary
+## Results Summary
 
 > Run the notebooks yourself to populate this table!
 
@@ -25,7 +25,7 @@ Compare the **accuracy**, **training time**, and **model complexity** of three d
 | Conv2D | ~99.2% | ~93K | ~10s |
 | LSTM | ~98.5% | ~320K | ~25s |
 
-## 🚀 Getting Started
+## Getting Started
 
 ### 1. Clone the repo
 
@@ -48,13 +48,13 @@ jupyter notebook notebooks/
 
 Run them in order: `01` → `02` → `03` → `04`
 
-## 📦 Requirements
+## Requirements
 
 - Python 3.8+
 - TensorFlow / Keras 2.x
 - NumPy, Matplotlib, Pandas, Seaborn
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 keras-mnist-comparison/
@@ -67,7 +67,7 @@ keras-mnist-comparison/
     └── 04_comparison.ipynb
 ```
 
-## 💡 Key Takeaways
+## Key Takeaways
 
 - **Dense**: Simple and fast, surprisingly effective on flat image data
 - **Conv2D**: Best accuracy — exploits spatial structure of images
